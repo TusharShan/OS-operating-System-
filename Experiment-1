@@ -1,0 +1,12 @@
+@@ -0,0 +1,11 @@
+ex1.sh                                                                                      
+#!/bin/bash
+
+echo "Student Name: $1"
+echo "Marks: $2"
+if [ $2 -ge 50 ];
+then
+        echo "Passed"
+else 
+        echo "failed"
+fi
