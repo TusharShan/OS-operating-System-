@@ -1,0 +1,15 @@
+@@ -0,0 +1,14 @@
+#!/bin/bash
+
+if [ -f "$1" ]
+then
+    echo "$1 is a file"
+elif [ -d "$1" ]
+then
+    echo "$1 is a Directory"
+elif [ "$#" -lt 1 ]
+then
+    echo "Please Pass the Argument"
+else
+    echo "$1 doesn't exist"
+fi
