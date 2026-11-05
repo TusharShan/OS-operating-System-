@@ -1,9 +1,0 @@
-#!/bin/bash
-echo "Enter Marks :"
-read n
-if [ "$n" -gt 50 ]
-then
-        echo "Passed"
-else
-        echo "Failed"
-fi
